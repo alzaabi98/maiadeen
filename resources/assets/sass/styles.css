@@ -1,0 +1,19 @@
+html {
+	background: whitesmoke;
+}
+body {
+        //font-family: Gess;
+        
+        
+    }
+    
+    @font-face {
+        font-family: Gess;
+        src: url('/fonts/gess.otf');
+        
+    }
+
+
+ .auth-btn {
+ 	color: #007f80;
+ }

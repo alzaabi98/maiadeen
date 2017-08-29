@@ -1,0 +1,19 @@
+.is-muted {
+
+	color: $grey-light !important;
+}
+
+.is-muted:hover {
+
+	color: $grey !important;
+}
+
+.navbar {
+    min-height: 4.5rem;
+    box-shadow: 0 2px 2px -2px gray;
+}
+
+.navbar img {
+    max-height: 3.75rem;
+
+}
