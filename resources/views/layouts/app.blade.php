@@ -79,6 +79,22 @@
         
         @yield('content')
     </div>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>ميادين</strong>  &copy; 2017
+        <br>
+    
+      <p>
+        <a class="icon" href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>

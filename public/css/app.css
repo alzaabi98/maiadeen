@@ -13140,7 +13140,7 @@ label.panel-block:hover {
 }
 
 .footer {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 3rem 1.5rem 6rem;
 }
 
@@ -15820,5 +15820,18 @@ html {
 
 .auth-btn {
   color: #007f80;
+}
+
+.courses-list-section {
+  background: lightgreen;
+}
+
+.check-list {
+  color: #00d1b2;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 20px;
 }
 

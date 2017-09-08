@@ -2,7 +2,6 @@
 
 @section('content')
 
-
    
     <section class="hero is-primary">
       <div class="hero-body">
@@ -26,9 +25,30 @@
         <img src="{{ asset('images/maiadeen-mean.png') }}" alt="">
     </div>
 
-    <footer>
-        @2017
-    </footer>
+    
+       
+    @foreach ($icons->chunk(4) as $chunk) 
+
+        <div class="columns courses-list-section has-text-centered">            
+        
+
+        @foreach ($chunk as $icon)
+
+         <div class="column is-3">
+            <img src="{{ asset('images/icons') . '/' . $icon . '.png'}}" alt="" > 
+
+         </div>
+        @endforeach
+
+        </div>
+         @endforeach
+           
+
+                 
+
+       
+    
+
 
 
 

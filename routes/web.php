@@ -20,3 +20,8 @@ Auth::routes();
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/courses', 'CourseController@index')->name('courses');
+// Route::get('/courses/{cat}', 'CourseController@filter')->name('courses-cat');
+
+Route::get('/courses/1', 'CourseController@show')->name('courses-page');

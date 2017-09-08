@@ -6,10 +6,16 @@ require('./bootstrap');
 window.Vue = require('vue');
 import Buefy from 'buefy';
 
-Vue.use(Buefy);
+Vue.use(Buefy, {
+    defaultIconPack: 'fa'
+});
 
 
 // Vue.component('example', require('./components/Example.vue'));
+Vue.component('my-panel', require('./components/Panel.vue'));
+Vue.component('my-rating', require('./components/Rating.vue'));
+Vue.component('user-comment', require('./components/Comment.vue'));
+
 
 const app = new Vue({
     el: '#app',

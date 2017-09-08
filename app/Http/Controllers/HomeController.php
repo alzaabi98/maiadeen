@@ -23,6 +23,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $icons = collect([
+            'design-icon', 'math-icon', 'mgmt-icon', 'prog-icon',
+            'design-icon', 'math-icon', 'mgmt-icon', 'prog-icon',
+            'design-icon', 'math-icon', 'mgmt-icon', 'prog-icon'
+        ]);
+
+        
+        return view('home',compact('icons'));
     }
 }
